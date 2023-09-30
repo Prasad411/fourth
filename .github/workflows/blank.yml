@@ -35,7 +35,7 @@ jobs:
       - name: check docker version
         run: docker -v
       - name: check terraform version
-        run: terrafrom -v
+        run: terraform -v
       - name: kubectl version
         run: kubectl --version
 
